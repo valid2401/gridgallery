@@ -1,0 +1,246 @@
+/* Body Allgemein */
+
+body {background-color:white;
+margin: 0; 
+padding:0; 
+overflow-x: hidden;}
+
+
+/* HEADER 1 */
+
+body h1{
+    font-size:20px;
+    margin-left:30px; 
+    position:relative;
+    bottom:-20px; 
+    display:inline; 
+    left:5%; 
+}
+
+/* Navbar */
+
+body nav ul {
+    list-style:none;
+    text-align:center;
+    margin:0; 
+    margin-right:100px; 
+    position:relative;
+    bottom:20px; 
+    left:30%; 
+}
+
+body nav ul li {
+    display:inline-block;
+    padding:20px; 
+}
+
+body nav ul li:hover {
+    color:red;
+    
+}
+
+/* Image 1 Rucksack  */
+
+img:nth-of-type(1){
+    width:80%;
+    height:600px; 
+    margin-left:17%; 
+    margin-top:40px; 
+}
+
+/* Bild Unterschrift 1 */
+
+body nav div:nth-of-type(1){
+    position:relative;
+    font-weight:bold; 
+    left:17%; 
+    margin: 5px;
+}
+
+body nav div:nth-of-type(2){
+    color:grey;
+    position: relative;
+    left:17.25%;
+    display: inline;
+}
+
+body nav div:nth-of-type(3){
+    color:grey;
+    position: relative;
+    left:84%;
+    top:-50px;
+}
+
+/* First Gallery */
+
+
+.container1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap:20px 20px; 
+    justify-items: center;
+    align-items: end;
+    justify-content: space-around;
+  
+}
+
+.container1 img{
+    width:40%;
+    height:400px; 
+    margin-bottom:50px; 
+}
+
+.u1:nth-of-type(1){
+    display: inline;
+    position:relative;
+    bottom:534px; 
+    left:200px; 
+}
+
+.u2:nth-of-type(2){
+    display: inline;
+    position:relative;
+    bottom:534px; 
+    left:200px; 
+}
+
+/* Image 8 Dietbook */
+
+
+.diet{
+    width:80%;
+    height:600px; 
+    margin-left:50%; 
+    margin-top:40px; 
+    padding-bottom: 30px;
+    position:relative;
+    left:2.5%
+}
+
+/* Bild Unterschrift */
+
+div .unterschrift{
+    font-weight:bold; 
+    position: relative;
+    left:300px; 
+}
+
+
+/* 7.Bild + Bildunterschrift*/
+
+body section img:nth-of-type(1){
+    width:70%; 
+    position:relative;
+    left:-4%; 
+}
+
+body section div:nth-of-type(1) {
+    color:red; 
+    position: relative;
+    left: 13%; 
+    bottom:20px; 
+}
+
+body section div:nth-of-type(2) {
+    color:red; 
+    position: relative;
+    left: 13%; 
+    bottom:20px; 
+}
+
+/* 2. Bild Gallerie */
+
+.gallery2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap:20px 20px; 
+    justify-items: center;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.gallery2 img{
+    width:40%;
+    height:400px; 
+    margin-bottom:50px; 
+}
+
+.eyeprice {
+    position:relative;
+    bottom:500px; 
+   
+}
+
+.boardprice {
+    position:relative;
+    bottom:540px; 
+    left:30%; 
+}
+
+.vaseprice{
+    position:relative;
+    bottom:580px; 
+    left:65%; 
+}
+
+.stuhlprice{
+    position:relative;
+    bottom:140px; 
+    left:-2%; 
+}
+
+.notebookprice{
+    position:relative;
+    bottom:170px; 
+    left:30%; 
+}
+
+.fromjapanprice{
+    position:relative;
+    bottom:200px; 
+    left:65%;  
+}
+
+/* Große Lampe + unterschrift */
+
+.großelampe{
+    width:80%;
+    height:600px; 
+    margin-left:10%; 
+    margin-top:-100px; 
+    padding-bottom: 100px;
+    
+}
+
+.großelampeprice{
+    position:relative;
+    left:8%;
+    top:-30px;  
+    font-weight: bold;
+}
+
+/* gallery 3 + price*/
+
+.gallery3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap:20px 20px; 
+    justify-items: center;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.gallery3 img{
+    width:40%;
+    height:400px; 
+    margin-bottom:50px; 
+}
+
+.winstonprice{
+    position:relative;
+    left:-1%; 
+    top:-500px; 
+}
